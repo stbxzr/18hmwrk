@@ -1,7 +1,15 @@
 index.js: (solved in act: 11 bottom of html either in html or index.js)
-manifest is pretty similar to others nothing crazy but from scratch // act: 8
+manifest.json is pretty similar to others nothing crazy but from scratch // act: 8
 service workers need install fetch
 act 13: dont need activate in this 
 added db.js from scratch
 service worker condition from act 11
 model is good
+
+db.js to write to indexedDB (from unit 17 mini project).
+service-worker.js to write data to cache (from unit 18).
+Add a manifest.webmanifest (from unit 18). You need service-worker.js
+ and mainifest.webmanifest to make the application installable as a PWA.
+reference db.js, service-worker.js, and manifest.webmanifest
+ in index.html.
+link the app to Mongo/Atlas and deploy it on heroku.
